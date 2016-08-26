@@ -12,4 +12,5 @@ function findLongestWord(str) {
   return longest.length;
 }
 
-findLongestWord("The quick brown fox jumped over the lazy dog");
+console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+// 6

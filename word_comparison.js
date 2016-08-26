@@ -35,4 +35,6 @@ function mutation(arr) {
   return true;
 }
 
-mutation(["hello", "hey"]);
+console.log(mutation(["Hello", "hello"])); // true
+console.log(mutation(["hello", "hey"])); // false
+console.log(mutation(["Alien", "line"])); // true

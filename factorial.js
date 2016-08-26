@@ -1,3 +1,5 @@
+// Perform factorial function on a number.
+
 function factorialize(num) {
   if (num === 0) {
     return 1;
@@ -9,4 +11,4 @@ function factorialize(num) {
   return fact;
 }
 
-factorialize(5);
+console.log(factorialize(5)); // 120

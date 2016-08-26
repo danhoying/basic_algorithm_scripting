@@ -7,4 +7,4 @@ function bouncer(arr) {
   });
 }
 
-bouncer([1, null, NaN, 2, undefined]);
+console.log(bouncer([1, null, NaN, 2, undefined])); // [1, 2]

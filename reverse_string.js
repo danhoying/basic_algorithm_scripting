@@ -1,3 +1,5 @@
+// Reverses a given string.
+
 function reverseString(str) {
   str = str.split("");
   var arr = [];
@@ -8,5 +10,4 @@ function reverseString(str) {
   return str;
 }
 
-reverseString("hello");
-
+console.log(reverseString("hello")); // olleh

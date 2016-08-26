@@ -13,4 +13,4 @@ function slasher(arr, howMany) {
   }
 }
 
-slasher(["burgers", "fries", "shake"], 1);
+console.log(slasher(["burgers", "fries", "shake"], 1)); // ['fries', 'shake']

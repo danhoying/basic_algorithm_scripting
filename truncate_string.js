@@ -20,4 +20,5 @@ function truncateString(str, num) {
   }
 }
 
-truncateString("Absolutely Longer", 2);
+console.log(truncateString("Absolutely Longer", 2)); // Ab...
+console.log(truncateString("Absolutely Longer", 8)); // Absol...
