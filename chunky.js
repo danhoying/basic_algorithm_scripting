@@ -13,4 +13,8 @@ function chunkArrayInGroups(arr, size) {
   return chunked;
 }
 
-chunkArrayInGroups([0, 1, 2, 3, 4, 5], 2);
+console.log(chunkArrayInGroups([0, 1, 2, 3, 4, 5], 2));
+// [[0, 1], [2, 3], [4, 5]]
+
+console.log(chunkArrayInGroups([0, 1, 2, 3, 4, 5, 6, 7], 3));
+// [[0, 1, 2], [3, 4, 5], [6, 7]]
